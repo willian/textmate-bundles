@@ -1,4 +1,4 @@
-h1. INSTALL (Linux or Mac)
+h1. INSTALL
 
 bc. git clone git://github.com/willian/textmate-bundles.git
 cd textmate-bundles
