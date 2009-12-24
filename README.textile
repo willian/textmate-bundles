@@ -1,0 +1,6 @@
+h1. INSTALL (Linux or Mac)
+
+bc. git clone git://github.com/willian/textmate-bundles.git
+cd textmate-bundles
+chmod +x install.sh
+./install.sh
