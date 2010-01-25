@@ -21,6 +21,7 @@ if [ ! -d ~/Library/Application\ Support/TextMate ]; then
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/textmate/textile.tmbundle.git "Textile.tmbundle"
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/textmate/html.tmbundle.git "HTML.tmbundle"
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/textmate/ruby-haml.tmbundle.git "Ruby Haml.tmbundle"
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/grimen/formtastic_tmbundle.git "Formtastic.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/JSpec.tmbundle && git pull
   cd ~/Library/Application\ Support/TextMate/Bundles/GitHub.tmbundle && git pull
@@ -39,4 +40,5 @@ else
   cd ~/Library/Application\ Support/TextMate/Bundles/Textile.tmbundle && git pull
   cd ~/Library/Application\ Support/TextMate/Bundles/HTML.tmbundle && git pull
   cd ~/Library/Application\ Support/TextMate/Bundles/Ruby\ Haml.tmbundle && git pull
+  cd ~/Library/Application\ Support/TextMate/Bundles/Formtastic.tmbundle && git pull
 fi
