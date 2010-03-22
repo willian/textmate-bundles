@@ -33,7 +33,7 @@ else
 fi
 
 if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Ruby.tmbundle ]; then
-  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/drnic/ruby-tmbundle.git "Ruby.tmbundle"
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/textmate/ruby.tmbundle.git "Ruby.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Ruby.tmbundle && git pull
 fi
@@ -114,4 +114,10 @@ if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Formtastic.tmbundle ];
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/grimen/formtastic_tmbundle.git "Formtastic.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Formtastic.tmbundle && git pull
+fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Sinatra.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/foca/sinatra-tmbundle "Sinatra.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Sinatra.tmbundle && git pull
 fi
