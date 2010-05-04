@@ -121,3 +121,15 @@ if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Sinatra.tmbundle ]; th
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Sinatra.tmbundle && git pull
 fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/HTML5.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/danielvlopes/html5-tmbundle.git "HTML5.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/HTML5.tmbundle && git pull
+fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Factory\ Girl.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/olly/factory-girl-tmbundle.git "Factory Girl.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Factory\ Girl.tmbundle && git pull
+fi
