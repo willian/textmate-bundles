@@ -133,3 +133,9 @@ if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Factory\ Girl.tmbundle
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Factory\ Girl.tmbundle && git pull
 fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Less.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/appden/less.tmbundle.git "Less.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Less.tmbundle && git pull
+fi
