@@ -20,6 +20,12 @@ else
   cd ~/Library/Application\ Support/TextMate/Bundles/GitHub.tmbundle && git pull
 fi
 
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Git.tmbundle ]; then
+    cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/jcf/git-tmbundle.git "Git.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Git.tmbundle && git pull
+fi
+
 if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Ruby\ on\ Rails.tmbundle ]; then
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/drnic/ruby-on-rails-tmbundle.git "Ruby on Rails.tmbundle"
 else
@@ -27,7 +33,7 @@ else
 fi
 
 if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Cucumber.tmbundle ]; then
-  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/bmabey/cucumber-tmbundle.git "Cucumber.tmbundle"
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/aslakhellesoy/cucumber-tmbundle.git "Cucumber.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Cucumber.tmbundle && git pull
 fi
@@ -44,6 +50,12 @@ else
   cd ~/Library/Application\ Support/TextMate/Bundles/JavascriptJquery.tmbundle && git pull
 fi
 
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Jquery.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/kswedberg/jquery-tmbundle.git "Jquery.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Jquery.tmbundle && git pull
+fi
+
 if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Copy\ as\ RTF.tmbundle ]; then
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/drnic/copy-as-rtf-tmbundle.git "Copy as RTF.tmbundle"
 else
@@ -51,7 +63,7 @@ else
 fi
 
 if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/RSpec.tmbundle ]; then
-  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/dchelimsky/rspec-tmbundle.git "RSpec.tmbundle"
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/rspec/rspec-tmbundle.git "RSpec.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/RSpec.tmbundle && git pull
 fi
@@ -138,4 +150,16 @@ if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Less.tmbundle ]; then
   cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/appden/less.tmbundle.git "Less.tmbundle"
 else
   cd ~/Library/Application\ Support/TextMate/Bundles/Less.tmbundle && git pull
+fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Ruby\ Shoulda.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/drnic/ruby-shoulda-tmbundle.git "Ruby Shoulda.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Ruby\ Shoulda.tmbundle && git pull
+fi
+
+if [ ! -d ~/Library/Application\ Support/TextMate/Bundles/Mediawiki.tmbundle ]; then
+  cd ~/Library/Application\ Support/TextMate/Bundles && git clone git://github.com/textmate/mediawiki.tmbundle.git "Mediawiki.tmbundle"
+else
+  cd ~/Library/Application\ Support/TextMate/Bundles/Mediawiki.tmbundle && git pull
 fi
