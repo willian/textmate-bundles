@@ -14,9 +14,11 @@ get_bundle() {
     git pull --rebase
   else
     git clone "git://github.com/$1/$2.git" "$3"
-    if [[ "$2" = "git-tmbundle.git" ]]; then
-      gem install git
-    fi
+    # if [[ "$2" = "git-tmbundle" ]]; then
+    #   gem install git
+    # elif [[ "$2" = "SCSS.tmbundle" ]]; then
+    #   gem install nokogiri
+    # fi
   fi
   )
 }
@@ -44,9 +46,13 @@ get_bundle textmate mediawiki.tmbundle "Bundles/Mediawiki.tmbundle"
 get_bundle textmate python-django-templates.tmbundle "Bundles/Python Django Templates.tmbundle"
 get_bundle textmate python-django.tmbundle "Bundles/Python Django.tmbundle"
 get_bundle textmate python.tmbundle "Bundles/Python.tmbundle"
-get_bundle textmate ruby-haml.tmbundle "Bundles/Ruby Haml.tmbundle"
 get_bundle textmate ruby.tmbundle "Bundles/Ruby.tmbundle"
 get_bundle textmate textile.tmbundle "Bundles/Textile.tmbundle"
 get_bundle visionmedia jspec.tmbundle "Bundles/JSpec.tmbundle"
+get_bundle kuroir SCSS.tmbundle "Bundles/SCSS.tmbundle"
+get_bundle charlesr ruby-sass-tmbundle "Bundles/Ruby Sass.tmbundle"
+get_bundle handcrafted handcrafted-haml-textmate-bundle "Bundles/HAML-Handcrafted.tmbundle"
+
+osascript -e 'tell app "TextMate" to reload bundles'
 
 echo "Done!"
