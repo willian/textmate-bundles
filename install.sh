@@ -24,15 +24,15 @@ get_bundle() {
 }
 
 get_bundle appden less.tmbundle "Bundles/Less.tmbundle"
-get_bundle aslakhellesoy cucumber-tmbundle "Bundles/Cucumber.tmbundle"
 get_bundle danielvlopes html5-tmbundle "Bundles/HTML5.tmbundle"
 get_bundle drnic copy-as-rtf-tmbundle "Bundles/Copy as RTF.tmbundle"
 get_bundle drnic github-tmbundle "Bundles/GitHub.tmbundle"
 get_bundle drnic javascript-jquery-tmbundle "Bundles/JavascriptJquery.tmbundle"
 get_bundle drnic ruby-on-rails-tmbundle "Bundles/Ruby on Rails.tmbundle"
 get_bundle drnic ruby-shoulda-tmbundle "Bundles/Ruby Shoulda.tmbundle"
-get_bundle foca sinatra-tmbundle "Bundles/Sinatra.tmbundle"
+get_bundle blinklys sinatra-tmbundle "Bundles/Sinatra.tmbundle"
 get_bundle grimen formtastic_tmbundle "Bundles/Formtastic.tmbundle"
+get_bundle henrik tasks.tmbundle "Bundles/Tasks.tmbundle"
 get_bundle jcf git-tmbundle "Bundles/Git.tmbundle"
 get_bundle kswedberg jquery-tmbundle "Bundles/Jquery.tmbundle"
 get_bundle tinogomes factory_girl-tmbundle "Bundles/FactoryGirl.tmbundle"
@@ -51,6 +51,7 @@ get_bundle kuroir SCSS.tmbundle "Bundles/SCSS.tmbundle"
 get_bundle charlesr ruby-sass-tmbundle "Bundles/Ruby Sass.tmbundle"
 get_bundle handcrafted handcrafted-haml-textmate-bundle "Bundles/HAML-Handcrafted.tmbundle"
 get_bundle willian wfernandes-tmbundle "Bundles/wfernandes.tmbundle"
+get_bundle johnmuhl javascript-tools-tmbundle "Bundles/JavaScriptTools.tmbundle"
 
 sudo ln -s /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc /usr/local/bin
 
