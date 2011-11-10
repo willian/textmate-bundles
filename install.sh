@@ -23,7 +23,6 @@ get_bundle() {
   )
 }
 
-get_bundle appden less.tmbundle "Bundles/Less.tmbundle"
 get_bundle danielvlopes html5-tmbundle "Bundles/HTML5.tmbundle"
 get_bundle drnic copy-as-rtf-tmbundle "Bundles/Copy as RTF.tmbundle"
 get_bundle drnic github-tmbundle "Bundles/GitHub.tmbundle"
@@ -31,7 +30,6 @@ get_bundle drnic javascript-jquery-tmbundle "Bundles/JavascriptJquery.tmbundle"
 get_bundle drnic ruby-on-rails-tmbundle "Bundles/Ruby on Rails.tmbundle"
 get_bundle drnic ruby-shoulda-tmbundle "Bundles/Ruby Shoulda.tmbundle"
 get_bundle blinklys sinatra-tmbundle "Bundles/Sinatra.tmbundle"
-get_bundle grimen formtastic_tmbundle "Bundles/Formtastic.tmbundle"
 get_bundle henrik tasks.tmbundle "Bundles/Tasks.tmbundle"
 get_bundle jcf git-tmbundle "Bundles/Git.tmbundle"
 get_bundle kswedberg jquery-tmbundle "Bundles/Jquery.tmbundle"
