@@ -50,6 +50,7 @@ get_bundle charlesr ruby-sass-tmbundle "Bundles/Ruby Sass.tmbundle"
 get_bundle handcrafted handcrafted-haml-textmate-bundle "Bundles/HAML-Handcrafted.tmbundle"
 get_bundle willian wfernandes-tmbundle "Bundles/wfernandes.tmbundle"
 get_bundle johnmuhl javascript-tools-tmbundle "Bundles/JavaScriptTools.tmbundle"
+get_bundle jessmartin taskpaper-tmbundle "Bundles/taskpaper.tmbundle"
 
 sudo ln -s /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc /usr/local/bin
 
